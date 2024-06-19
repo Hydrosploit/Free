@@ -20,6 +20,6 @@ pcall(function()
 end)
 ]]
 
-if game.PlaceId == 13822889 then -- mm2
+if game.PlaceId == 142823291 then -- mm2
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Hydrosploit/Free/main/MM2-Main'))("")
 end
