@@ -1,0 +1,25 @@
+
+--[[
+pcall(function()
+    local Request = syn and syn.request or request
+    Request({
+        Url = "http://127.0.0.1:6463/rpc?v=1",
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json",
+            ["Origin"] = "https://discord.com"
+        },
+        Body = game.HttpService:JSONEncode({
+            cmd = "INVITE_BROWSER",
+            args = {
+                code = "celestialhub"
+            },
+            nonce = game.HttpService:GenerateGUID(false)
+        }),
+    })
+end)
+]]
+
+if game.PlaceId == 13822889 then -- mm2
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Hydrosploit/Free/main/MM2-Main'))("")
+end
