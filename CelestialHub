@@ -24,4 +24,6 @@ if game.PlaceId == 142823291 then -- mm2
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Hydrosploit/Free/main/MM2'))("")
 elseif game.PlaceId == 537413528 then -- bab4t
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Hydrosploit/Free/main/BAB4T'))("")
+elseif game.PlaceId == 13822889 then -- LT2
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Hydrosploit/Free/main/LT2'))("")
 end
