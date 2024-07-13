@@ -1,3 +1,16 @@
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Get Key in our discord",
+			Text = "https://hydrosploit.co.uk/home",
+			Duration = 6,
+			Icon = "rbxassetid://6031071050",
+		})
+
+
+
+
+
+
+
 getgenv().mainKey = "nil"
 
 local a, b, c, d = loadstring, request or http_request or (http and http.request) or (syn and syn.request), assert, tostring
